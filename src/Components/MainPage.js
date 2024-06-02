@@ -11,9 +11,9 @@ class MainPage extends React.Component {
     return (
       <div>
         <Header data={this.props.resumeData.main} />
+        <Resume data={this.props.resumeData.resume} />
         <About data={this.props.resumeData.main} />
         <Portfolio data={this.props.resumeData.portfolio} />
-        <Resume data={this.props.resumeData.resume} />
         <Contact data={this.props.resumeData.main} />
         <Footer data={this.props.resumeData.main} />
       </div>
