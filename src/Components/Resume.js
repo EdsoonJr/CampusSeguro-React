@@ -14,15 +14,15 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const education = this.props.data.education.map(function (education) {
+    const objectives = this.props.data.objectives.map(function (objectives) {
       return (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
+        <div key={objectives.title}>
+          <h3>{objectives.title}</h3>
           <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
+            {objectives.subtitle} <span>&bull;</span>
+            <em className="date">{objectives.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p>{objectives.description}</p>
         </div>
       );
     });
@@ -30,7 +30,7 @@ class Resume extends Component {
     return (
       <section id="resume">
         <Slide left duration={1300}>
-          <div className="row education">
+          <div className="row objectives">
             <div className="three columns header-col">
               <h1>
                 <span>Campus-Seguro</span>
@@ -39,7 +39,7 @@ class Resume extends Component {
 
             <div className="nine columns main-col">
               <div className="row item">
-                <div className="twelve columns">{education}</div>
+                <div className="twelve columns">{objectives}</div>
               </div>
             </div>
           </div>

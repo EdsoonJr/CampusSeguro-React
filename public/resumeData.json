@@ -47,19 +47,19 @@
   },
   "resume":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+    "objectives":[
       {
-        "school":"A Plataforma",
-        "degree":"Resumo",
+        "title":"A Plataforma",
+        "subtitle":"Resumo",
         "description":"O 'CampusSeguro' é uma plataforma online inovadora dedicada a combater e minimizar os casos de bullying nas instituições de ensino superior. Atuamos como um elo de comunicação eficiente entre a instituição de ensino e os responsáveis pelos alunos, proporcionando um ambiente educacional mais seguro, inclusivo e saudável."
       },
       {
-        "school":"Objetivos",
-        "degree":"Combate ao Bullying:",
+        "title":"Objetivos",
+        "subtitle":"Combate ao Bullying:",
         "description":" Reduzir significativamente os casos de bullying nas instituições de ensino superior, oferecendo um canal seguro e confidencial para denúncias e apoio."
       },
       {
-        "degree":"Comunicação Efetiva:",
+        "subtitle":"Comunicação Efetiva:",
         "description":"Estabelecer uma comunicação direta e eficiente entre a instituição de ensino e os responsáveis, mantendo-os informados sobre incidentes e medidas tomadas."
       }
     ],
