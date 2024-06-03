@@ -49,16 +49,18 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"A Plataforma",
+        "degree":"Resumo",
+        "description":"O 'CampusSeguro' é uma plataforma online inovadora dedicada a combater e minimizar os casos de bullying nas instituições de ensino superior. Atuamos como um elo de comunicação eficiente entre a instituição de ensino e os responsáveis pelos alunos, proporcionando um ambiente educacional mais seguro, inclusivo e saudável."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Objetivos",
+        "degree":"Combate ao Bullying:",
+        "description":" Reduzir significativamente os casos de bullying nas instituições de ensino superior, oferecendo um canal seguro e confidencial para denúncias e apoio."
+      },
+      {
+        "degree":"Comunicação Efetiva:",
+        "description":"Estabelecer uma comunicação direta e eficiente entre a instituição de ensino e os responsáveis, mantendo-os informados sobre incidentes e medidas tomadas."
       }
     ],
     "work":[
