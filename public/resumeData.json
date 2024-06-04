@@ -111,28 +111,28 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
+        "title": "O cyberbullying em contexto universitário do Brasil e Portugal",
         "category": "My Travel Blog for my post-university travels",
-        "image": "01.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "image": "artigo1.png",
+        "url": "https://periodicos.fclar.unesp.br/iberoamericana/article/view/9067"
       },
       {
-        "title": "Fury Fighting Gear",
+        "title": "Agressão entre pares no espaço virtual",
         "category": "(offline now) A fighting gear company I started",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com"
+        "image": "artigo2.png",
+        "url": "https://www.scielo.br/j/pc/a/N83JQQXmpnxNkQNwcVvmZgh/?lang=pt&format=html"
       },
       {
-        "title": "Original Thai Food",
+        "title": "Significados, experiências e repercussões do cyberbullying",
         "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "image": "artigo3.png",
+        "url": "http://www.scielo.org.co/scielo.php?pid=S1794-47242022000300005&script=sci_arttext"
       },
       {
-        "title": "Original Thai Food",
+        "title": "Políticas públicas federais e estaduais para prevenção e contenção ao bullying e cyberbullying",
         "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "image": "artigo4.png",
+        "url": "https://repositorio.unesp.br/items/87412d57-d890-4818-aa9a-a451498500a8"
       }
      
     ]
