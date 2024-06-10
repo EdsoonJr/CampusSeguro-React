@@ -1,5 +1,7 @@
+// LoginForm.jsx
+
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom'; // Importe o componente Link
 import './TelaLogin.css';
 
 const LoginForm = () => {
@@ -26,13 +28,13 @@ const LoginForm = () => {
         <img src="https://imgur.com/iqIiCIt.jpg" alt="" />
       </div>
       <div className='logo'>
-          <img src="https://imgur.com/a3dzQjV.png" alt="" />
+        <img src="https://imgur.com/a3dzQjV.png" alt="" />
       </div>
       <div className="login-form">
-        <h2>Login</h2>
+        <h2 style={{ textAlign: "center", color: "white" }}>Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="email">E-mail:</label>
+            <label htmlFor="email" style={{ color: "white" }}>E-mail:</label>
             <input 
               type="email" 
               id="email" 
@@ -40,10 +42,11 @@ const LoginForm = () => {
               value={email} 
               onChange={handleChange} 
               required 
+              style={{ color: "white" }} 
             />
           </div>
           <div className="form-group">
-            <label htmlFor="password">Senha:</label>
+            <label htmlFor="password" style={{ color: "white" }}>Senha:</label>
             <input 
               type="password" 
               id="password" 
@@ -51,13 +54,18 @@ const LoginForm = () => {
               value={password} 
               onChange={handleChange} 
               required 
+              style={{ color: "white" }} 
             />
           </div>
-          <div className="form-group">
+          <div className="form-group" style={{ textAlign: "center" }}>
             <button type="submit">Entrar</button>
           </div>
-          <div className="form-group">
-            <button type="button">Cadastrar</button>
+          <div className="form-group" style={{ textAlign: "center" }}>
+           
+            <Link to="/cadastro" style={{ color: "white", textDecoration: "none" }}>
+              <button type='submit'>Cadastrar</button>
+              
+            </Link>
           </div>
         </form>
       </div>
@@ -66,3 +74,4 @@ const LoginForm = () => {
 };
 
 export default LoginForm;
+
